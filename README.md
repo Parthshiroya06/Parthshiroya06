@@ -22,55 +22,38 @@ I build **high-performance mobile apps** with React Native that solve real-world
 ## 💼 Experience & Track Record
 
 ### 6+ Years Building Apps Across Industries
-| Domain | Expertise |
-|--------|-----------|
-| 🏥 **HealthTech** | Medical apps, fitness tracking, wellness platforms |
-| 🛒 **eCommerce** | Mobile shopping, payments, inventory management |
-| 💰 **FinTech** | Payment processing, subscriptions, digital wallets |
-| 🏢 **SaaS** | Enterprise apps, collaboration tools, B2B solutions |
-| 🚚 **Logistics** | Real-time tracking, route optimization, delivery apps |
+
+**HealthTech** — Medical apps, fitness tracking, wellness platforms with real-time data sync and offline capabilities.
+
+**eCommerce** — Mobile shopping experiences, secure payment processing, inventory management, and personalized user interfaces.
+
+**FinTech** — Payment processing systems, subscription management, digital wallets, and PCI-compliant transactions.
+
+**SaaS** — Enterprise applications, collaboration tools, B2B solutions with scalable architectures.
+
+**Logistics** — Real-time tracking, route optimization, delivery management, and IoT device integration.
 
 ---
 
 ## 🛠️ Technology Stack
 
-### Mobile & React Native
-```
-React Native (New Architecture) • TypeScript • Expo
-Firebase • Redux • Context API • Async Storage
-Native Modules (Swift, Objective-C, Kotlin, Java)
-```
+### Mobile & React Native Expertise
+I build cross-platform iOS and Android applications using React Native with cutting-edge technologies. My expertise includes React Native New Architecture for optimal performance, TypeScript for type-safe code, and Expo for rapid development cycles. I work extensively with Firebase for real-time databases and authentication, Redux and Context API for state management, and Async Storage for persistent data. I also develop native modules using Swift, Objective-C, Kotlin, and Java to bridge React Native with platform-specific features.
 
-### FinTech & Payments
-```
-Stripe API • In-App Purchases (IAP) • RevenueCat
-PCI Compliance • Secure Transactions • Subscription Management
-```
+### FinTech & Payments Integration
+I specialize in implementing secure payment solutions for mobile applications. My experience includes Stripe API integration for seamless payments, In-App Purchases (IAP) for iOS and Google Play, and RevenueCat for subscription management. I ensure PCI compliance, implement secure transaction flows, and build robust subscription management systems that handle complex billing scenarios.
 
-### AI & Machine Learning
-```
-OpenAI Integration • Google Gemini • Prompt Engineering
-AI-Powered Features • LLM Integration
-```
+### AI & Machine Learning Features
+I integrate cutting-edge AI capabilities into mobile applications using OpenAI and Google Gemini APIs. My work includes implementing ChatGPT functionality, building intelligent features with advanced prompt engineering, and creating AI-powered user experiences. I focus on optimizing API calls for performance and ensuring seamless user interactions with AI features.
 
-### IoT & Hardware
-```
-Bluetooth Low Energy (BLE) • Wearables Integration
-Real-time Sensor Data • Smart Device Communication
-```
+### IoT & Hardware Integration
+I specialize in connecting mobile apps to IoT devices through Bluetooth Low Energy (BLE) communication. My experience includes wearables integration, real-time sensor data processing, and smart device communication protocols. I build reliable device communication layers that handle connection management, data synchronization, and power optimization.
 
 ### Backend & Infrastructure
-```
-Node.js (Express, NestJS) • PHP (Laravel)
-GraphQL • Firebase • PostgreSQL • MongoDB
-AWS • Docker • CI/CD Pipelines
-```
+For backend development, I work with Node.js using Express and NestJS frameworks, PHP with Laravel, and GraphQL for API design. I'm proficient with Firebase services including Realtime Database, Cloud Functions, and Authentication. I design and manage databases using PostgreSQL and MongoDB, deploy applications on AWS, containerize with Docker, and implement CI/CD pipelines for automated testing and deployment.
 
-### Testing & Quality
-```
-Jest • Detox • React Testing Library
-App Store & Google Play Deployment
-```
+### Testing & Quality Assurance
+I maintain high code quality through comprehensive testing using Jest for unit testing, Detox for end-to-end testing, and React Testing Library for component testing. I ensure smooth app launches and handle deployment to both App Store and Google Play with proper versioning and release management.
 
 ---
 
@@ -86,23 +69,19 @@ App Store & Google Play Deployment
 
 ## 🌱 Currently Focused On
 
-- Advanced React Native New Architecture patterns
-- AI/ML integration in mobile applications
-- IoT ecosystem expansion
-- Building frameworks for rapid, maintainable development
-- Pushing boundaries of what's possible with React Native
+- Advanced React Native New Architecture patterns and best practices
+- AI/ML integration in mobile applications for intelligent features
+- IoT ecosystem expansion and device connectivity improvements
+- Building frameworks for rapid, maintainable development workflows
+- Pushing boundaries of what's possible with React Native technology
 
 ---
 
 ## 👥 Let's Build Together
 
-I'm always excited to work on:
-- 🚀 Innovative React Native & mobile projects
-- 💳 FinTech and payment solutions
-- 🤖 AI-powered mobile applications
-- 🔌 BLE/IoT device integrations
-- 📱 Next-generation mobile experiences
-- 🌐 Open-source React Native contributions
+I'm always excited to work on innovative projects including React Native and cross-platform mobile applications, FinTech and payment solutions, AI-powered mobile applications with intelligent features, BLE and IoT device integrations, and next-generation mobile experiences that delight users.
+
+I'm also passionate about open-source React Native contributions and building tools that help the community.
 
 ---
 
@@ -110,7 +89,7 @@ I'm always excited to work on:
 
 **GitHub:** [@Parthshiroya06](https://github.com/Parthshiroya06)  
 **Repositories:** [View All Projects](https://github.com/Parthshiroya06?tab=repositories)  
-**Open To:** Consulting on mobile architecture, FinTech integrations, and AI features
+**Open To:** Consulting on mobile architecture, FinTech integrations, AI features, and IoT device communication.
 
 ---
 
@@ -118,7 +97,7 @@ I'm always excited to work on:
 
 > **Build for long-term maintainability** — so clients come back for the next feature, not a rebuild.
 
-Every line of code is written with scalability, performance, and team collaboration in mind. From concept to production, I focus on shipping exceptional mobile experiences that delight users and stand the test of time.
+Every line of code is written with scalability, performance, and team collaboration in mind. I believe in creating mobile applications that not only solve problems today but remain maintainable and extensible for years to come. From concept to production, I focus on shipping exceptional mobile experiences that delight users and become trusted tools in their daily lives.
 
 ---
 
