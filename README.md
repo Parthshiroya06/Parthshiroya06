@@ -1,85 +1,112 @@
 # Hey there, I'm Parth Shiroya 👋
 
-Welcome to my GitHub profile! I'm a passionate **React Native developer** and full-stack engineer with **5+ years of experience** building scalable mobile and web solutions across diverse domains.
+**Full-Stack Developer | React Native Expert** with **6+ years** of experience building production-grade iOS/Android applications.
 
-## 📱 React Native & Mobile Development
-I specialize in creating high-performance, cross-platform mobile applications using **React Native**:
-- **iOS & Android Development** - Building native-like mobile experiences
-- **Offline-First Architecture** - Developing apps that work seamlessly online and offline
-- **State Management** - Redux, Context API, and modern patterns
-- **Performance Optimization** - Fast, responsive, and battery-efficient apps
-- **Native Module Integration** - Bridging React Native with platform-specific features
-
-## 🔭 Professional Experience
-With extensive expertise across multiple domains:
-- **E-commerce** - Building robust online platforms and payment integrations
-- **Logistics** - Developing supply chain and delivery management systems
-- **Education** - Creating interactive learning platforms and educational tools
-- **Payment Gateways** - Implementing secure payment processing solutions
-- **Offline-First Mobile Apps** - Building resilient applications that work seamlessly online and offline
-
-## 💻 What I Do
-- Design and develop full-stack React Native applications
-- Create scalable backend systems with Node.js and Python
-- Build responsive and intuitive mobile user interfaces
-- Implement secure payment and transaction systems
-- Develop progressive web apps and cross-platform solutions
-
-## 🌱 Currently Learning
-- Advanced React Native patterns and optimization techniques
-- Emerging mobile technologies (Flutter comparison, React Native New Architecture)
-- Cloud architecture for mobile backends
-- AI/ML integration in mobile applications
-
-## 👯 Looking To Collaborate
-- Innovative React Native mobile projects
-- E-commerce, education, or logistics tech solutions
-- Open-source React Native contributions
-- Building next-generation mobile applications
-
-## 💡 Core Skills & Technologies
-
-### Mobile & React Native
-- **React Native** - Cross-platform mobile development
-- **React Native CLI** - Project setup and management
-- **Expo** - Rapid development and deployment
-- **Native Modules** - iOS (Swift/Objective-C) and Android (Kotlin/Java) integration
-- **Firebase** - Real-time databases and cloud services
-- **Redux / Context API** - State management
-- **Async Storage** - Local data persistence
-
-### Backend & APIs
-- **Node.js** - Express, REST APIs, GraphQL
-- **Python** - Django, Flask
-- **Database Design** - SQL, NoSQL, Real-time databases
-- **Microservices Architecture** - Scalable backend systems
-
-### Payment & Security
-- **Payment Systems** - Stripe, Razorpay, PayPal integrations
-- **Authentication** - JWT, OAuth, biometric authentication
-- **Encryption** - Secure data transmission and storage
-
-### DevOps & Cloud
-- **AWS** - Lambda, S3, DynamoDB, EC2
-- **Docker** - Containerization
-- **CI/CD Pipelines** - Automated testing and deployment
-
-## 🎯 Featured Projects & Portfolio
-Explore my work and projects on [GitHub](https://github.com/Parthshiroya06?tab=repositories) to see real-world implementations:
-- 📱 **React Native Mobile Apps** - Cross-platform iOS/Android applications
-- 🛒 **E-commerce Solutions** - Mobile shopping experiences with payment integrations
-- 🚚 **Logistics Applications** - Delivery tracking and management systems
-- 📚 **Educational Mobile Platforms** - Interactive learning apps
-- 🔄 **Offline-First Applications** - Seamless sync and data persistence
-
-## 📫 Let's Connect & Collaborate
-- **GitHub:** [@Parthshiroya06](https://github.com/Parthshiroya06)
-- **Projects:** [View All Repositories](https://github.com/Parthshiroya06?tab=repositories)
-- Open to discussing exciting React Native and mobile projects
-- Available for consulting on mobile app architecture and development
-- Ready to contribute to innovative solutions
+I specialize in creating maintainable, scalable mobile solutions that clients trust for their next feature, not a rebuild.
 
 ---
 
-**⭐ Passion:** I'm passionate about creating exceptional mobile experiences that solve real-world problems. From concept to production, I build high-quality apps that users love. Let's create something amazing together! 🚀
+## 📱 React Native Expertise
+
+### Advanced Technical Skills
+- **React Native New Architecture** - Fabric rendering engine, TurboModules for optimal performance
+- **Cross-Platform Development** - Native-like iOS & Android experiences
+- **TypeScript** - Type-safe, scalable codebases
+- **Expo** - Rapid development and managed deployments
+- **State Management** - Redux, Context API, MobX
+- **Offline-First Architecture** - Seamless sync and data persistence
+- **Performance Optimization** - Fast app launches, smooth 60 FPS animations
+
+### Specialized Integrations
+- **FinTech Payments** - Stripe, In-App Purchases (IAP), RevenueCat subscriptions
+- **AI Features** - OpenAI, Google Gemini integrations for intelligent app features
+- **BLE/IoT Device Integration** - Bluetooth, wearables, smart device connectivity
+- **Native Modules** - Custom iOS (Swift/Objective-C) & Android (Kotlin/Java) bridges
+
+## 💼 Industry Experience
+Shipped production apps across multiple sectors:
+- **HealthTech** - Medical apps, fitness tracking, wellness platforms
+- **eCommerce** - Mobile shopping, payment processing, inventory management
+- **FinTech** - Payment processing, subscription management, digital wallets
+- **SaaS** - Enterprise mobile solutions, collaboration tools
+- **Logistics & Delivery** - Real-time tracking, route optimization
+
+## 🔧 Full Technology Stack
+
+### Mobile & React Native
+- React Native (New Architecture, Fabric, TurboModules)
+- TypeScript, JavaScript
+- Expo & React Native CLI
+- Firebase (Realtime DB, Cloud Functions, Authentication)
+- Redux, Context API, MobX
+- Async Storage, SQLite, Realm
+- Testing: Jest, Detox, React Testing Library
+
+### Backend & APIs
+- **Node.js** - Express, NestJS, GraphQL
+- **PHP** - Laravel, custom APIs
+- **Databases** - Firebase, MongoDB, PostgreSQL, MySQL
+- **Real-time** - WebSockets, Firebase Realtime DB
+- **API Design** - RESTful, GraphQL
+
+### Payment & FinTech
+- Stripe (payments, Connect, subscriptions)
+- In-App Purchases (App Store, Google Play)
+- RevenueCat (subscription management)
+- PCI compliance & secure transactions
+
+### AI & Machine Learning
+- OpenAI API integration (ChatGPT, GPT-4)
+- Google Gemini AI
+- Prompt engineering & AI-powered features
+
+### BLE/IoT & Hardware
+- Bluetooth Low Energy (BLE) device communication
+- Wearables integration
+- Smart device connectivity
+- Real-time sensor data processing
+
+### DevOps & Cloud
+- AWS (Lambda, S3, EC2, RDS)
+- Firebase (hosting, functions, storage)
+- Docker & containerization
+- CI/CD pipelines (GitHub Actions, CircleCI)
+- App Store & Google Play deployment
+
+## 🎯 What I Build
+- **High-Performance Mobile Apps** - Optimized for speed, battery life, and smooth UX
+- **Payment-Enabled Solutions** - Secure, PCI-compliant financial integrations
+- **AI-Powered Features** - Intelligent, context-aware app capabilities
+- **IoT-Connected Apps** - Seamless hardware integration and real-time communication
+- **Enterprise Solutions** - Scalable, maintainable code for long-term success
+
+## 🌱 Currently Focused On
+- Advanced React Native New Architecture patterns
+- AI/ML integration in mobile apps
+- IoT device ecosystem expansion
+- Building frameworks for rapid, maintainable development
+
+## 👯 Looking To Collaborate On
+- Innovative React Native & mobile projects
+- FinTech and payment solutions
+- AI-powered mobile applications
+- BLE/IoT device integrations
+- Building next-generation mobile experiences
+- Open-source React Native contributions
+
+## 💡 My Philosophy
+**Build for long-term maintainability** — so clients come back for the next feature, not a rebuild. Every line of code is written with scalability, performance, and team collaboration in mind.
+
+## 📫 Let's Connect & Build Together
+- **GitHub:** [@Parthshiroya06](https://github.com/Parthshiroya06)
+- **Repositories:** [View All Projects](https://github.com/Parthshiroya06?tab=repositories)
+- Open to discussing exciting React Native mobile projects
+- Available for consulting on mobile app architecture, payments, and AI integration
+- Ready to ship production-grade applications
+
+---
+
+**⭐ Let's create exceptional mobile experiences together!** 🚀
+
+From concept to production — building apps that scale, perform, and delight users.
 
