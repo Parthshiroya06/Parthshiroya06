@@ -35,6 +35,21 @@ I build **high-performance mobile apps** with React Native that solve real-world
 
 ---
 
+## ⭐ Featured Project
+
+### AliHealth Digital — HealthTech SaaS
+Remote monitoring platform for chronic diseases (diabetes, hypertension, heart disease) in Senegal and West Africa.
+
+- Patient, doctor, and clinic portals with role-based access
+- Real-time vitals from CGM sensors and a wearable bracelet app (BLE)
+- AI health reports, SMS alerts, and video teleconsultation
+- Subscription plans, bilingual (French/English), installable PWA
+
+**Stack:** Next.js, React, Node.js, PostgreSQL, AWS, Twilio, OpenAI, Web Bluetooth  
+🔗 [app.alihealthdigital.com](https://app.alihealthdigital.com)
+
+---
+
 ## 🛠️ Technology Stack
 
 ### Mobile & React Native Expertise
@@ -102,4 +117,3 @@ Every line of code is written with scalability, performance, and team collaborat
 ---
 
 **Let's create something amazing together.** 🚀
-
