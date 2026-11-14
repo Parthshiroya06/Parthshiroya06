@@ -38,7 +38,7 @@ I build **mobile apps that keep working**: fast on the device, reliable on bad n
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h4>🚛 EcoSoft Drive</h4>
+      <h4>🚛 Driver App</h4>
       <sub><b>Logistics · Netherlands</b></sub>
       <p>Fleet & route app for waste-collection drivers.</p>
       <ul>
@@ -47,7 +47,6 @@ I build **mobile apps that keep working**: fast on the device, reliable on bad n
         <li>Battery-friendly background GPS</li>
         <li>Offline-first with SQLite</li>
       </ul>
-      <a href="https://drive.google.com/file/d/1MjoBhKiqnPlkU7zBFYC7DD7yIn3vJ2yp/view?usp=sharing">▶ Watch demo</a>
     </td>
     <td width="33%" valign="top">
       <h4>❤️ ALIHEALTH</h4>
