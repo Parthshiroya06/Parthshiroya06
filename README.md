@@ -39,7 +39,7 @@ I build **mobile apps that keep working**: fast on the device, reliable on bad n
   <tr>
     <td width="33%" valign="top">
       <h4>🚛 Driver App</h4>
-      <sub><b>Logistics · Netherlands</b></sub>
+      <sub><b>Logistics · Waste collection</b></sub>
       <p>Fleet & route app for waste-collection drivers.</p>
       <ul>
         <li>TomTom navigation via Nitro Modules</li>
