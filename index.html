@@ -163,6 +163,8 @@
   .c-eco { background: linear-gradient(135deg, #1B5E20, #43A047 55%, #9CCC65); }
   .c-ali { background: linear-gradient(135deg, #0D47A1, #1976D2 55%, #26C6DA); }
   .c-mosho { background: linear-gradient(135deg, #4A148C, #7B1FA2 55%, #F06292); }
+  .c-uns { background: linear-gradient(135deg, #E65100, #FB8C00 55%, #FFD54F); }
+  .c-story { background: linear-gradient(135deg, #311B92, #5E35B1 55%, #26A69A); }
   .project .body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
   .project h3 { font-size: 20px; }
   .project ul { margin: 12px 0 18px; padding-left: 18px; color: var(--muted); font-size: 14.5px; }
@@ -252,8 +254,8 @@
 <section id="projects" style="background: var(--surface-2); border-block: 1px solid var(--line);">
   <div class="wrap">
     <span class="eyebrow">Featured work</span>
-    <h2>Three major projects</h2>
-    <p class="sub">A selection from many React Native apps I've built across logistics, healthcare, eCommerce, FinTech and SaaS.</p>
+    <h2>Featured projects</h2>
+    <p class="sub">A selection from the many mobile apps I've built across logistics, healthcare, eCommerce, FinTech, education and AI.</p>
     <div class="grid c3">
 
       <article class="card project reveal">
@@ -306,6 +308,37 @@
             <a href="https://play.google.com/store/apps/details?id=com.moshocart.atharvasystem" target="_blank" rel="noopener">Google Play</a>
             <a href="https://apps.apple.com/in/app/mosho-cart/id1640443975" target="_blank" rel="noopener">App Store</a>
           </div>
+        </div>
+      </article>
+
+      <article class="card project reveal">
+        <div class="cover c-uns"><span class="emoji">🐷</span><span class="tag">FinTech · Education</span></div>
+        <div class="body">
+          <h3>Unsquander</h3>
+          <p>Teaches children saving, budgeting and smart spending.</p>
+          <ul>
+            <li>Earnings &amp; spending tracker with live balance</li>
+            <li>"What if you had saved it" purchase analysis</li>
+            <li>Daily collection dashboard</li>
+            <li>RevenueCat one-time &amp; yearly subscriptions</li>
+          </ul>
+          <div class="chips"><span class="chip">React Native</span><span class="chip">Expo</span><span class="chip">Redux</span><span class="chip">RevenueCat</span><span class="chip">TypeScript</span></div>
+        </div>
+      </article>
+
+      <article class="card project reveal">
+        <div class="cover c-story"><span class="emoji">📖</span><span class="tag">AI · Entertainment</span></div>
+        <div class="body">
+          <h3>Text Story</h3>
+          <p>Discover and generate AI-powered stories. Live on Google Play.</p>
+          <ul>
+            <li>Story discovery, categories &amp; trending feed</li>
+            <li>AI story generation</li>
+            <li>Offline bookmarks &amp; reading progress (SQLite)</li>
+            <li>In-app purchases, ads, deep links, Remote Config</li>
+          </ul>
+          <div class="chips"><span class="chip">Flutter</span><span class="chip">Firebase</span><span class="chip">SQLite</span><span class="chip">GoRouter</span><span class="chip">GetX</span></div>
+          <div class="links"><a href="https://play.google.com/store/apps/details?id=com.atharva.textStory" target="_blank" rel="noopener">Google Play</a></div>
         </div>
       </article>
 

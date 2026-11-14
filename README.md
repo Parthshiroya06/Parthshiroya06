@@ -75,9 +75,37 @@ I build **mobile apps that keep working**: fast on the device, reliable on bad n
       <a href="https://apps.apple.com/in/app/mosho-cart/id1640443975">App Store</a>
     </td>
   </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🐷 Unsquander</h4>
+      <sub><b>FinTech · Education</b></sub>
+      <p>Teaches kids saving, budgeting and smart spending.</p>
+      <ul>
+        <li>Earnings &amp; spending tracker</li>
+        <li>"What if you had saved it" analysis</li>
+        <li>RevenueCat subscriptions</li>
+        <li>React Native Expo + Redux</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4>📖 Text Story</h4>
+      <sub><b>AI · Entertainment</b></sub>
+      <p>Discover and generate AI stories.</p>
+      <ul>
+        <li>AI story generation &amp; trending feed</li>
+        <li>Offline bookmarks with SQLite</li>
+        <li>In-app purchases, ads, deep links</li>
+        <li>Flutter + Firebase</li>
+      </ul>
+      <a href="https://play.google.com/store/apps/details?id=com.atharva.textStory">Google Play</a>
+    </td>
+    <td width="33%" valign="top">
+      <h4>➕ And many more</h4>
+      <p>Apps across logistics, healthcare, eCommerce, FinTech, education, SaaS and AI, on both iOS and Android.</p>
+      <a href="https://parthshiroya06.github.io/Parthshiroya06/#projects">See portfolio →</a>
+    </td>
+  </tr>
 </table>
-
-<sub>Also shipped apps in <b>FinTech</b> and <b>SaaS</b> domains.</sub>
 
 ---
 
