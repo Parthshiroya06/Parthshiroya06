@@ -86,6 +86,7 @@ I build **mobile apps that keep working**: fast on the device, reliable on bad n
         <li>RevenueCat subscriptions</li>
         <li>React Native Expo + Redux</li>
       </ul>
+      <a href="https://play.google.com/store/apps/details?id=com.devshore.unsquander">Google Play</a>
     </td>
     <td width="33%" valign="top">
       <h4>📖 Text Story</h4>
