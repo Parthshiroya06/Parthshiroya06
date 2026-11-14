@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Parth Shiroya · React Native Developer</title>
+<meta name="description" content="Senior React Native developer with 7+ years building production iOS and Android apps: native modules, BLE/IoT, offline-first sync and Node.js backends on AWS." />
+<meta property="og:title" content="Parth Shiroya · React Native Developer" />
+<meta property="og:description" content="7+ years building production iOS & Android apps with React Native." />
+<meta property="og:type" content="website" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%231565C0'/><text x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='700' font-size='28' fill='white'>PS</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #F6F8FC;
+    --surface: #FFFFFF;
+    --surface-2: #EEF3FB;
+    --text: #0B1B33;
+    --muted: #51607A;
+    --line: #DCE4F0;
+    --brand: #1565C0;
+    --brand-2: #00ACC1;
+    --brand-soft: rgba(21, 101, 192, .10);
+    --ok: #2E7D32;
+    --shadow: 0 1px 2px rgba(11,27,51,.05), 0 8px 24px rgba(11,27,51,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #070D19;
+      --surface: #0E1728;
+      --surface-2: #132036;
+      --text: #E8EEF8;
+      --muted: #94A3BD;
+      --line: #1F2D45;
+      --brand: #5AA2FF;
+      --brand-2: #3DD9EB;
+      --brand-soft: rgba(90, 162, 255, .12);
+      --ok: #5FD07A;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #070D19;
+    --surface: #0E1728;
+    --surface-2: #132036;
+    --text: #E8EEF8;
+    --muted: #94A3BD;
+    --line: #1F2D45;
+    --brand: #5AA2FF;
+    --brand-2: #3DD9EB;
+    --brand-soft: rgba(90, 162, 255, .12);
+    --ok: #5FD07A;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--brand); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+  @media (min-width: 720px) { .wrap { padding: 0 28px; } }
+
+  /* nav */
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    backdrop-filter: saturate(160%) blur(12px);
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    border-bottom: 1px solid var(--line);
+  }
+  nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+  .logo { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--text); }
+  .logo:hover { text-decoration: none; }
+  .logo span.mark {
+    width: 32px; height: 32px; border-radius: 9px; display: grid; place-items: center;
+    background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: #fff; font-size: 13px;
+  }
+  .nav-links { display: flex; gap: 22px; align-items: center; }
+  .nav-links a { color: var(--muted); font-weight: 500; font-size: 15px; }
+  .nav-links a:hover { color: var(--text); text-decoration: none; }
+  .nav-links .hide-sm { display: none; }
+  @media (min-width: 720px) { .nav-links .hide-sm { display: inline; } }
+  .theme-btn {
+    border: 1px solid var(--line); background: var(--surface); color: var(--text);
+    width: 36px; height: 36px; border-radius: 10px; cursor: pointer; font-size: 16px;
+  }
+
+  /* hero */
+  .hero { position: relative; overflow: hidden; padding: 72px 0 56px; }
+  .hero::before {
+    content: ""; position: absolute; inset: -40% -10% auto auto; width: 620px; height: 620px;
+    background: radial-gradient(circle, color-mix(in srgb, var(--brand-2) 28%, transparent), transparent 65%);
+    pointer-events: none;
+  }
+  .hero::after {
+    content: ""; position: absolute; inset: auto auto -50% -15%; width: 560px; height: 560px;
+    background: radial-gradient(circle, color-mix(in srgb, var(--brand) 22%, transparent), transparent 65%);
+    pointer-events: none;
+  }
+  .hero .wrap { position: relative; z-index: 1; }
+  .pill {
+    display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px;
+    background: var(--surface); border: 1px solid var(--line); font-size: 14px; color: var(--muted); font-weight: 500;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 0 4px color-mix(in srgb, var(--ok) 22%, transparent); }
+  h1 {
+    font-size: clamp(36px, 7vw, 64px); line-height: 1.05; letter-spacing: -0.03em; margin: 20px 0 16px; font-weight: 800;
+  }
+  .grad { background: linear-gradient(90deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lead { font-size: clamp(17px, 2.2vw, 20px); color: var(--muted); max-width: 640px; margin: 0 0 28px; }
+  .cta { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: 12px;
+    font-weight: 600; font-size: 15px; border: 1px solid transparent; transition: transform .15s, box-shadow .15s;
+  }
+  .btn:hover { text-decoration: none; transform: translateY(-1px); }
+  .btn-primary { background: linear-gradient(135deg, var(--brand), color-mix(in srgb, var(--brand) 70%, var(--brand-2))); color: #fff; box-shadow: 0 8px 20px color-mix(in srgb, var(--brand) 30%, transparent); }
+  .btn-ghost { background: var(--surface); color: var(--text); border-color: var(--line); }
+
+  .stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 44px; }
+  @media (min-width: 720px) { .stats { grid-template-columns: repeat(4, 1fr); } }
+  .stat { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px; box-shadow: var(--shadow); }
+  .stat b { display: block; font-size: 19px; letter-spacing: -0.02em; line-height: 1.3; }
+  @media (min-width: 720px) { .stat b { font-size: 26px; } }
+  .br-lg { display: none; }
+  @media (min-width: 720px) { .br-lg { display: inline; } }
+  .logo .name { display: none; }
+  @media (min-width: 420px) { .logo .name { display: inline; } }
+  .nav-links { gap: 16px; }
+  .stat span { color: var(--muted); font-size: 14px; }
+
+  /* sections */
+  section { padding: 64px 0; }
+  .eyebrow { font: 500 13px/1 "JetBrains Mono", monospace; color: var(--brand); letter-spacing: .08em; text-transform: uppercase; }
+  h2 { font-size: clamp(26px, 4vw, 36px); letter-spacing: -0.02em; margin: 10px 0 12px; line-height: 1.15; }
+  .sub { color: var(--muted); max-width: 620px; margin: 0 0 32px; }
+
+  .grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 720px) { .grid.c2 { grid-template-columns: repeat(2, 1fr); } .grid.c3 { grid-template-columns: repeat(3, 1fr); } }
+
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 24px; box-shadow: var(--shadow); }
+  .icon {
+    width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; font-size: 22px;
+    background: var(--brand-soft); margin-bottom: 14px;
+  }
+  .card h3 { margin: 0 0 6px; font-size: 18px; letter-spacing: -0.01em; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+
+  /* projects */
+  .project { display: flex; flex-direction: column; padding: 0; overflow: hidden; transition: transform .2s, box-shadow .2s; }
+  .project:hover { transform: translateY(-3px); }
+  .cover { height: 132px; position: relative; display: flex; align-items: flex-end; padding: 18px 22px; color: #fff; }
+  .cover .emoji { position: absolute; right: 18px; top: 14px; font-size: 52px; opacity: .9; }
+  .cover .tag { font: 500 12px/1 "JetBrains Mono", monospace; background: rgba(255,255,255,.18); padding: 6px 9px; border-radius: 999px; backdrop-filter: blur(4px); }
+  .c-eco { background: linear-gradient(135deg, #1B5E20, #43A047 55%, #9CCC65); }
+  .c-ali { background: linear-gradient(135deg, #0D47A1, #1976D2 55%, #26C6DA); }
+  .c-mosho { background: linear-gradient(135deg, #4A148C, #7B1FA2 55%, #F06292); }
+  .project .body { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+  .project h3 { font-size: 20px; }
+  .project ul { margin: 12px 0 18px; padding-left: 18px; color: var(--muted); font-size: 14.5px; }
+  .project li { margin: 4px 0; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+  .chip { font-size: 12.5px; font-weight: 500; padding: 4px 10px; border-radius: 999px; background: var(--surface-2); color: var(--muted); border: 1px solid var(--line); }
+  .links { margin-top: auto; display: flex; gap: 8px; flex-wrap: wrap; }
+  .links a { font-size: 14px; font-weight: 600; padding: 8px 12px; border-radius: 10px; background: var(--brand-soft); }
+  .links a:hover { text-decoration: none; filter: brightness(1.05); }
+
+  /* stack */
+  .stack-group { margin-bottom: 22px; }
+  .stack-group h4 { margin: 0 0 10px; font-size: 14px; color: var(--muted); font-weight: 600; }
+  .stack-group .chips { margin: 0; }
+  .stack-group .chip { font-size: 14px; padding: 7px 13px; background: var(--surface); color: var(--text); }
+
+  /* process */
+  .step-n { font: 500 13px/1 "JetBrains Mono", monospace; color: var(--brand); margin-bottom: 10px; display: block; }
+
+  /* cta band */
+  .band {
+    border-radius: 24px; padding: 44px 28px; text-align: center; color: #fff;
+    background: linear-gradient(135deg, #0D47A1, #1565C0 45%, #00ACC1);
+    position: relative; overflow: hidden;
+  }
+  .band h2 { color: #fff; margin-top: 0; }
+  .band p { color: rgba(255,255,255,.85); max-width: 560px; margin: 0 auto 24px; }
+  .band .btn-ghost { background: #fff; color: #0D47A1; border-color: #fff; }
+
+  footer { padding: 28px 0 40px; color: var(--muted); font-size: 14px; text-align: center; }
+
+  .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#top"><span class="mark">PS</span> <span class="name">Parth Shiroya</span></a>
+    <div class="nav-links">
+      <a class="hide-sm" href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a class="hide-sm" href="#stack">Stack</a>
+      <a href="#contact">Contact</a>
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">◐</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <span class="pill"><span class="dot"></span> Available for freelance work · 15–20 h/week</span>
+    <h1>I build React Native apps<br class="br-lg"/> that <span class="grad">keep working.</span></h1>
+    <p class="lead">Senior React Native developer with <b>7+ years</b> shipping production iOS &amp; Android apps: native modules, Bluetooth devices, offline-first sync and Node.js backends on AWS.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="#projects">View my work →</a>
+      <a class="btn btn-ghost" href="https://github.com/Parthshiroya06" target="_blank" rel="noopener">GitHub profile</a>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>7+ years</b><span>React Native</span></div>
+      <div class="stat"><b>iOS + Android</b><span>Shipped to both stores</span></div>
+      <div class="stat"><b>Kotlin · Swift</b><span>Native modules</span></div>
+      <div class="stat"><b>5 domains</b><span>Health, logistics, retail…</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="wrap">
+    <span class="eyebrow">What I do</span>
+    <h2>From first screen to the store, and every release after.</h2>
+    <p class="sub">I'm just as comfortable joining an existing codebase as starting a new one. I keep its patterns, estimate honestly and ship the next feature without a rebuild.</p>
+    <div class="grid c3">
+      <div class="card reveal"><div class="icon">📱</div><h3>React Native apps</h3><p>TypeScript, Redux, React Navigation and the New Architecture, built for speed and long-term maintenance.</p></div>
+      <div class="card reveal"><div class="icon">🧩</div><h3>Native modules</h3><p>Kotlin &amp; Swift modules (Nitro, TurboModules) that wrap vendor SDKs, maps and navigation.</p></div>
+      <div class="card reveal"><div class="icon">🔌</div><h3>BLE &amp; IoT</h3><p>Wearables, weighing hardware and sensors: scan, pair, auto-reconnect and real-time data.</p></div>
+      <div class="card reveal"><div class="icon">📶</div><h3>Offline-first</h3><p>SQLite and persisted queues with background sync and retry, built for low-connectivity regions.</p></div>
+      <div class="card reveal"><div class="icon">☁️</div><h3>Backend &amp; cloud</h3><p>Node.js / NestJS APIs with PostgreSQL, Firebase and GraphQL, deployed and monitored on AWS.</p></div>
+      <div class="card reveal"><div class="icon">💳</div><h3>Payments &amp; AI</h3><p>Stripe, in-app purchases and RevenueCat, plus OpenAI and Gemini features inside the app.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" style="background: var(--surface-2); border-block: 1px solid var(--line);">
+  <div class="wrap">
+    <span class="eyebrow">Featured work</span>
+    <h2>Three major projects</h2>
+    <p class="sub">A selection from many React Native apps I've built across logistics, healthcare, eCommerce, FinTech and SaaS.</p>
+    <div class="grid c3">
+
+      <article class="card project reveal">
+        <div class="cover c-eco"><span class="emoji">🚛</span><span class="tag">Logistics · Netherlands</span></div>
+        <div class="body">
+          <h3>EcoSoft Drive</h3>
+          <p>Fleet &amp; route management app for waste-collection drivers.</p>
+          <ul>
+            <li>TomTom SDK navigation via custom Nitro Modules</li>
+            <li>BLE link to onboard weighing hardware</li>
+            <li>Battery-friendly background GPS tracking</li>
+            <li>Offline-first route logging with SQLite</li>
+          </ul>
+          <div class="chips"><span class="chip">React Native</span><span class="chip">Nitro</span><span class="chip">TomTom</span><span class="chip">BLE</span><span class="chip">SQLite</span></div>
+          <div class="links"><a href="https://drive.google.com/file/d/1MjoBhKiqnPlkU7zBFYC7DD7yIn3vJ2yp/view?usp=sharing" target="_blank" rel="noopener">▶ Watch demo</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal">
+        <div class="cover c-ali"><span class="emoji">❤️</span><span class="tag">HealthTech · West Africa</span></div>
+        <div class="body">
+          <h3>ALIHEALTH</h3>
+          <p>Connected-health app and SaaS backend for remote monitoring.</p>
+          <ul>
+            <li>Kotlin/Swift modules wrapping the bracelet SDK</li>
+            <li>Heart rate, SpO₂, sleep stages, BP, ECG</li>
+            <li>On-device ECG analysis &amp; HRV metrics</li>
+            <li>Offline queue → NestJS + PostgreSQL on AWS</li>
+          </ul>
+          <div class="chips"><span class="chip">React Native</span><span class="chip">Kotlin</span><span class="chip">Swift</span><span class="chip">NestJS</span><span class="chip">AWS</span></div>
+          <div class="links">
+            <a href="https://drive.google.com/file/d/1knW8k5lz8PLhbxRe8qfVEFFIlw3Uib91/view?usp=sharing" target="_blank" rel="noopener">▶ Watch demo</a>
+            <a href="https://app.alihealthdigital.com" target="_blank" rel="noopener">Web platform</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card project reveal">
+        <div class="cover c-mosho"><span class="emoji">🛍️</span><span class="tag">eCommerce · Shopify</span></div>
+        <div class="body">
+          <h3>Moshocart</h3>
+          <p>Turns a Shopify store into a native shopping app. Live on both stores.</p>
+          <ul>
+            <li>Catalogue, search, sort, filters, wishlist</li>
+            <li>Real-time cart and checkout flow</li>
+            <li>Orders, profile and address management</li>
+            <li>Customisable themes + merchant dashboard</li>
+          </ul>
+          <div class="chips"><span class="chip">React Native</span><span class="chip">Redux</span><span class="chip">Shopify GraphQL</span><span class="chip">Firebase</span></div>
+          <div class="links">
+            <a href="https://play.google.com/store/apps/details?id=com.moshocart.atharvasystem" target="_blank" rel="noopener">Google Play</a>
+            <a href="https://apps.apple.com/in/app/mosho-cart/id1640443975" target="_blank" rel="noopener">App Store</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="stack">
+  <div class="wrap">
+    <span class="eyebrow">Tech stack</span>
+    <h2>Tools I use every day</h2>
+    <p class="sub">Picked for reliability in production, not for the hype.</p>
+    <div class="stack-group"><h4>Mobile</h4><div class="chips">
+      <span class="chip">React Native</span><span class="chip">TypeScript</span><span class="chip">New Architecture</span><span class="chip">Nitro Modules</span><span class="chip">TurboModules</span><span class="chip">Kotlin</span><span class="chip">Swift</span><span class="chip">Redux Toolkit</span><span class="chip">React Navigation</span><span class="chip">Expo</span><span class="chip">react-native-ble-plx</span><span class="chip">SQLite</span>
+    </div></div>
+    <div class="stack-group"><h4>Backend &amp; cloud</h4><div class="chips">
+      <span class="chip">Node.js</span><span class="chip">NestJS</span><span class="chip">Express</span><span class="chip">GraphQL</span><span class="chip">PostgreSQL</span><span class="chip">Prisma</span><span class="chip">MongoDB</span><span class="chip">Firebase</span><span class="chip">AWS (EC2, RDS, S3, SES)</span><span class="chip">Docker</span>
+    </div></div>
+    <div class="stack-group"><h4>Integrations &amp; quality</h4><div class="chips">
+      <span class="chip">Stripe</span><span class="chip">In-App Purchases</span><span class="chip">RevenueCat</span><span class="chip">Shopify</span><span class="chip">TomTom</span><span class="chip">OpenAI</span><span class="chip">Gemini</span><span class="chip">Jest</span><span class="chip">Detox</span><span class="chip">CI/CD</span>
+    </div></div>
+  </div>
+</section>
+
+<section style="padding-top: 0;">
+  <div class="wrap">
+    <span class="eyebrow">How I work</span>
+    <h2>Simple, predictable, task by task</h2>
+    <p class="sub">The way most of my long-term clients work with me.</p>
+    <div class="grid c3">
+      <div class="card reveal"><span class="step-n">01 · Scope</span><h3>You share the task</h3><p>I read the requirement and the related code, and ask the questions that matter.</p></div>
+      <div class="card reveal"><span class="step-n">02 · Estimate</span><h3>Hours + approach</h3><p>A realistic hour estimate and a short plan. Nothing starts until we agree.</p></div>
+      <div class="card reveal"><span class="step-n">03 · Deliver</span><h3>Tested &amp; shipped</h3><p>Clean code tested on real devices, regular updates, and early warnings if scope changes.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="padding-top: 0;">
+  <div class="wrap">
+    <div class="band reveal">
+      <h2>Need a reliable React Native developer?</h2>
+      <p>New features, maintenance or a tricky native integration: let's talk about your app.</p>
+      <div class="cta" style="justify-content: center;">
+        <a class="btn btn-ghost" href="https://github.com/Parthshiroya06" target="_blank" rel="noopener">Connect on GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© <span id="yr">2026</span> Parth Shiroya · Built for long-term maintainability.</div>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    try { var saved = localStorage.getItem('theme'); if (saved) root.setAttribute('data-theme', saved); } catch (e) {}
+    document.getElementById('themeBtn').addEventListener('click', function () {
+      var cur = root.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      var next = cur === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+    document.getElementById('yr').textContent = new Date().getFullYear();
+    var els = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('in'); }); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    els.forEach(function (el) { io.observe(el); });
+  })();
+</script>
+</body>
+</html>

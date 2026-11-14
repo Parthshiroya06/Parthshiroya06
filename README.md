@@ -1,119 +1,121 @@
-# 👋 Hey there, I'm Parth Shiroya
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D47A1,50:1976D2,100:26C6DA&height=190&section=header&text=Parth%20Shiroya&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Senior%20React%20Native%20Developer%20%E2%80%A2%207%2B%20years&descSize=18&descAlignY=58" alt="Parth Shiroya, Senior React Native Developer" />
+</p>
 
-> **Full-Stack Developer | React Native Expert**  
-> 6+ years building production-grade iOS/Android applications that scale.  
-> I create maintainable, scalable mobile solutions that clients trust for their next feature—not a rebuild.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3200&pause=900&color=1976D2&center=true&vCenter=true&width=620&lines=Production+iOS+%26+Android+apps+with+React+Native;Native+modules+in+Kotlin+%26+Swift+(Nitro%2C+TurboModules);BLE+%26+IoT%3A+wearables%2C+scales%2C+sensors;Offline-first+apps+for+low-connectivity+regions;Node.js+%2F+NestJS+backends+on+AWS" alt="What I build" />
+</p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/Experience-7%2B%20years-0D47A1?style=for-the-badge" alt="7+ years" />
+  <img src="https://img.shields.io/badge/React%20Native-New%20Architecture-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Native New Architecture" />
+  <img src="https://img.shields.io/badge/Open%20to-Freelance%20work-2E7D32?style=for-the-badge" alt="Open to freelance work" />
+</p>
 
-## 🚀 What I Do
-
-I build **high-performance mobile apps** with React Native that solve real-world problems. From FinTech payments to AI-powered features and IoT integrations, I ship production-ready code that stands the test of time.
-
-### Core Focus Areas
-- 📱 **React Native New Architecture** (Fabric, TurboModules, TypeScript)
-- 💳 **FinTech & Payments** (Stripe, IAP, RevenueCat, secure transactions)
-- 🤖 **AI Integration** (OpenAI, Google Gemini, intelligent features)
-- 🔌 **BLE/IoT Devices** (Bluetooth, wearables, smart device connectivity)
-- 🏗️ **Full-Stack Solutions** (Backend: Node.js, PHP, Firebase, GraphQL)
-
----
-
-## 💼 Experience & Track Record
-
-### 6+ Years Building Apps Across Industries
-
-**HealthTech** — Medical apps, fitness tracking, wellness platforms with real-time data sync and offline capabilities.
-
-**eCommerce** — Mobile shopping experiences, secure payment processing, inventory management, and personalized user interfaces.
-
-**FinTech** — Payment processing systems, subscription management, digital wallets, and PCI-compliant transactions.
-
-**SaaS** — Enterprise applications, collaboration tools, B2B solutions with scalable architectures.
-
-**Logistics** — Real-time tracking, route optimization, delivery management, and IoT device integration.
+<p align="center">
+  <a href="https://parthshiroya06.github.io/Parthshiroya06/"><b>🌐 Portfolio</b></a> &nbsp;•&nbsp;
+  <a href="#-featured-projects"><b>⭐ Projects</b></a> &nbsp;•&nbsp;
+  <a href="https://github.com/Parthshiroya06?tab=repositories"><b>📦 Repositories</b></a>
+</p>
 
 ---
 
-## ⭐ Featured Project
+### 👋 About me
 
-### AliHealth Digital — HealthTech SaaS
-Remote monitoring platform for chronic diseases (diabetes, hypertension, heart disease) in Senegal and West Africa.
+I build **mobile apps that keep working**: fast on the device, reliable on bad networks, and easy for the next developer to extend. I take apps from first screen to the stores, and I'm just as comfortable **joining an existing codebase** and shipping the next feature without a rebuild.
 
-- Patient, doctor, and clinic portals with role-based access
-- Real-time vitals from CGM sensors and a wearable bracelet app (BLE)
-- AI health reports, SMS alerts, and video teleconsultation
-- Subscription plans, bilingual (French/English), installable PWA
-
-**Stack:** Next.js, React, Node.js, PostgreSQL, AWS, Twilio, OpenAI, Web Bluetooth  
-🔗 [app.alihealthdigital.com](https://app.alihealthdigital.com)
+- 📱 **React Native** for 7+ years: TypeScript, Redux, React Navigation, New Architecture
+- 🧩 **Native modules** in Kotlin & Swift (Nitro Modules, TurboModules) wrapping vendor SDKs
+- 🔌 **BLE / IoT**: health wearables, weighing hardware, real-time sensor data
+- 📶 **Offline-first**: SQLite / persisted queues, background sync with retry
+- ☁️ **Backend**: Node.js, NestJS, PostgreSQL, Firebase, deployed on AWS
+- 💳 **Payments & AI**: Stripe, IAP, RevenueCat, OpenAI, Gemini
 
 ---
 
-## 🛠️ Technology Stack
+### ⭐ Featured projects
 
-### Mobile & React Native Expertise
-I build cross-platform iOS and Android applications using React Native with cutting-edge technologies. My expertise includes React Native New Architecture for optimal performance, TypeScript for type-safe code, and Expo for rapid development cycles. I work extensively with Firebase for real-time databases and authentication, Redux and Context API for state management, and Async Storage for persistent data. I also develop native modules using Swift, Objective-C, Kotlin, and Java to bridge React Native with platform-specific features.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🚛 EcoSoft Drive</h4>
+      <sub><b>Logistics · Netherlands</b></sub>
+      <p>Fleet & route app for waste-collection drivers.</p>
+      <ul>
+        <li>TomTom navigation via Nitro Modules</li>
+        <li>BLE link to onboard weighing hardware</li>
+        <li>Battery-friendly background GPS</li>
+        <li>Offline-first with SQLite</li>
+      </ul>
+      <a href="https://drive.google.com/file/d/1MjoBhKiqnPlkU7zBFYC7DD7yIn3vJ2yp/view?usp=sharing">▶ Watch demo</a>
+    </td>
+    <td width="33%" valign="top">
+      <h4>❤️ ALIHEALTH</h4>
+      <sub><b>HealthTech · West Africa</b></sub>
+      <p>Connected-health app + SaaS backend.</p>
+      <ul>
+        <li>Kotlin/Swift modules for BLE bracelets</li>
+        <li>Heart rate, SpO₂, sleep, BP, ECG</li>
+        <li>On-device ECG &amp; HRV analysis</li>
+        <li>NestJS + PostgreSQL on AWS</li>
+      </ul>
+      <a href="https://drive.google.com/file/d/1knW8k5lz8PLhbxRe8qfVEFFIlw3Uib91/view?usp=sharing">▶ Watch demo</a> ·
+      <a href="https://app.alihealthdigital.com">Web</a>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🛍️ Moshocart</h4>
+      <sub><b>eCommerce · Shopify</b></sub>
+      <p>Shopify store as a native mobile app.</p>
+      <ul>
+        <li>Catalogue, search, filters, wishlist</li>
+        <li>Real-time cart &amp; checkout</li>
+        <li>Orders &amp; account management</li>
+        <li>Shopify GraphQL + Firebase</li>
+      </ul>
+      <a href="https://play.google.com/store/apps/details?id=com.moshocart.atharvasystem">Google Play</a> ·
+      <a href="https://apps.apple.com/in/app/mosho-cart/id1640443975">App Store</a>
+    </td>
+  </tr>
+</table>
 
-### FinTech & Payments Integration
-I specialize in implementing secure payment solutions for mobile applications. My experience includes Stripe API integration for seamless payments, In-App Purchases (IAP) for iOS and Google Play, and RevenueCat for subscription management. I ensure PCI compliance, implement secure transaction flows, and build robust subscription management systems that handle complex billing scenarios.
-
-### AI & Machine Learning Features
-I integrate cutting-edge AI capabilities into mobile applications using OpenAI and Google Gemini APIs. My work includes implementing ChatGPT functionality, building intelligent features with advanced prompt engineering, and creating AI-powered user experiences. I focus on optimizing API calls for performance and ensuring seamless user interactions with AI features.
-
-### IoT & Hardware Integration
-I specialize in connecting mobile apps to IoT devices through Bluetooth Low Energy (BLE) communication. My experience includes wearables integration, real-time sensor data processing, and smart device communication protocols. I build reliable device communication layers that handle connection management, data synchronization, and power optimization.
-
-### Backend & Infrastructure
-For backend development, I work with Node.js using Express and NestJS frameworks, PHP with Laravel, and GraphQL for API design. I'm proficient with Firebase services including Realtime Database, Cloud Functions, and Authentication. I design and manage databases using PostgreSQL and MongoDB, deploy applications on AWS, containerize with Docker, and implement CI/CD pipelines for automated testing and deployment.
-
-### Testing & Quality Assurance
-I maintain high code quality through comprehensive testing using Jest for unit testing, Detox for end-to-end testing, and React Testing Library for component testing. I ensure smooth app launches and handle deployment to both App Store and Google Play with proper versioning and release management.
-
----
-
-## 🎯 What Sets Me Apart
-
-✅ **Production-Ready Code** — Optimized for performance, battery life, and user experience  
-✅ **Secure by Default** — PCI compliance, encrypted transactions, secure storage  
-✅ **Scalable Architecture** — Built for growth without rewrites  
-✅ **Long-Term Maintainability** — Clean code that teams can build on  
-✅ **Rapid Shipping** — Deployed apps across HealthTech, eCommerce, FinTech, and SaaS  
-
----
-
-## 🌱 Currently Focused On
-
-- Advanced React Native New Architecture patterns and best practices
-- AI/ML integration in mobile applications for intelligent features
-- IoT ecosystem expansion and device connectivity improvements
-- Building frameworks for rapid, maintainable development workflows
-- Pushing boundaries of what's possible with React Native technology
-
----
-
-## 👥 Let's Build Together
-
-I'm always excited to work on innovative projects including React Native and cross-platform mobile applications, FinTech and payment solutions, AI-powered mobile applications with intelligent features, BLE and IoT device integrations, and next-generation mobile experiences that delight users.
-
-I'm also passionate about open-source React Native contributions and building tools that help the community.
-
----
-
-## 📍 Find Me Here
-
-**GitHub:** [@Parthshiroya06](https://github.com/Parthshiroya06)  
-**Repositories:** [View All Projects](https://github.com/Parthshiroya06?tab=repositories)  
-**Open To:** Consulting on mobile architecture, FinTech integrations, AI features, and IoT device communication.
+<sub>Also shipped apps in <b>FinTech</b> and <b>SaaS</b> domains.</sub>
 
 ---
 
-## 💡 My Philosophy
+### 🛠️ Tech stack
 
-> **Build for long-term maintainability** — so clients come back for the next feature, not a rebuild.
-
-Every line of code is written with scalability, performance, and team collaboration in mind. I believe in creating mobile applications that not only solve problems today but remain maintainable and extensible for years to come. From concept to production, I focus on shipping exceptional mobile experiences that delight users and become trusted tools in their daily lives.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,kotlin,swift,androidstudio,apple,redux,firebase&perline=9" alt="Mobile" /><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,graphql,postgres,mongodb,prisma,aws,docker&perline=9" alt="Backend" /><br/>
+  <img src="https://skillicons.dev/icons?i=nextjs,jest,git,github,githubactions,vscode,figma,linux&perline=9" alt="Tools" />
+</p>
 
 ---
 
-**Let's create something amazing together.** 🚀
+### 🎯 How I work
+
+| | |
+|---|---|
+| 🔍 **Understand first** | I read the existing code before changing it, and keep its patterns. |
+| ⏱️ **Realistic estimates** | Every task gets an hour estimate and a short plan before I start. |
+| 🧪 **Production-ready** | Typed, tested, measured on real devices, released to both stores. |
+| 💬 **Clear communication** | Regular updates, and early warnings when scope changes. |
+
+---
+
+### 📊 GitHub activity
+
+<p align="center">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Parthshiroya06&theme=default" alt="GitHub contributions" /><br/>
+  <img height="165" src="https://streak-stats.demolab.com?user=Parthshiroya06&hide_border=true&theme=transparent&ring=1976D2&fire=1976D2&currStreakLabel=1976D2" alt="GitHub streak" />
+</p>
+
+---
+
+<p align="center">
+  <b>Need a reliable React Native developer?</b> Let's build something that lasts. 🚀
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:26C6DA,50:1976D2,100:0D47A1&height=110&section=footer" alt="" />
+</p>
