@@ -98,7 +98,8 @@ I build **mobile apps that keep working**: fast on the device, reliable on bad n
         <li>In-app purchases, ads, deep links</li>
         <li>Flutter + Firebase</li>
       </ul>
-      <a href="https://play.google.com/store/apps/details?id=com.atharva.textStory">Google Play</a>
+      <a href="https://play.google.com/store/apps/details?id=com.atharva.textStory">Google Play</a> ·
+      <a href="https://apps.apple.com/us/app/text-story-chat-stories/id6748338402">App Store</a>
     </td>
     <td width="33%" valign="top">
       <h4>➕ And many more</h4>
