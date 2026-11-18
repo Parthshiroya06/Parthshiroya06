@@ -1,24 +1,27 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F4D,55:1D5FD6,100:0E9FB3&height=200&section=header&text=Parth%20Shiroya&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=Senior%20React%20Native%20Developer%20%C2%B7%207%2B%20years&descSize=18&descAlignY=58" alt="Parth Shiroya, Senior React Native Developer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1F4D,55:1D5FD6,100:0E9FB3&height=200&section=header&text=Parth%20Shiroya&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=Senior%20Mobile%20App%20Developer%20%C2%B7%20React%20Native%20%26%20Flutter&descSize=18&descAlignY=58" alt="Parth Shiroya, Senior Mobile App Developer, React Native and Flutter" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3200&pause=900&color=1D5FD6&center=true&vCenter=true&width=640&lines=Production+iOS+%26+Android+apps+with+React+Native;Native+modules+in+Kotlin+%26+Swift;BLE+%26+IoT%3A+wearables%2C+scales%2C+sensors;Offline-first+apps+for+low-connectivity+regions;Node.js+%2F+NestJS+backends+on+AWS" alt="What I build" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3200&pause=900&color=1D5FD6&center=true&vCenter=true&width=640&lines=Mobile+apps+with+React+Native+%26+Flutter;Production+iOS+%26+Android+apps;Native+modules+in+Kotlin+%26+Swift;BLE+%26+IoT%3A+wearables%2C+scales%2C+sensors;Offline-first+apps+for+low-connectivity+regions;Node.js+%2F+NestJS+backends+on+AWS" alt="What I build" />
 
 <br/><br/>
 
 <a href="https://parthshiroya06.github.io/Parthshiroya06/"><img src="https://img.shields.io/badge/Portfolio-Visit_website-1D5FD6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" /></a>
 <img src="https://img.shields.io/badge/Experience-7%2B_years-0A1628?style=for-the-badge" alt="7+ years of experience" />
+<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
 <img src="https://img.shields.io/badge/Available-15--20_h%2Fweek-15803D?style=for-the-badge" alt="Available 15 to 20 hours a week" />
 
 </div>
 
 ## About me
 
-I'm a senior React Native developer who builds **mobile apps that keep working**: fast on the device, reliable on bad networks, and easy for the next developer to extend. I take apps from the first screen to the stores, and I'm just as comfortable **joining an existing codebase** and shipping the next feature without a rebuild.
+I'm a senior mobile app developer with 7+ years of experience. I build **iOS and Android apps that keep working** with React Native and Flutter: fast on the device, reliable on bad networks, and easy for the next developer to extend. I take apps from the first screen to the stores, and I'm just as comfortable **joining an existing codebase** and shipping the next feature without a rebuild.
 
 | Area | What I do |
 |---|---|
-| **React Native** | 7+ years with TypeScript, Redux, React Navigation and the New Architecture |
+| **React Native** | TypeScript, Redux, React Navigation and the New Architecture |
+| **Flutter** | Dart, GetX, GoRouter, Firebase and SQLite |
 | **Native modules** | Kotlin and Swift (Nitro Modules, TurboModules) wrapping vendor SDKs, maps and navigation |
 | **BLE & IoT** | Health wearables, weighing hardware and sensors with real-time data |
 | **Offline-first** | SQLite and persisted queues with background sync and retry |
@@ -113,7 +116,7 @@ I'm a senior React Native developer who builds **mobile apps that keep working**
 
 <p align="center">
   <b>Mobile</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=react,ts,js,kotlin,swift,flutter,redux,firebase,androidstudio&perline=9" alt="React Native, TypeScript, JavaScript, Kotlin, Swift, Flutter, Redux, Firebase, Android Studio" />
+  <img src="https://skillicons.dev/icons?i=react,flutter,ts,dart,kotlin,swift,redux,firebase,androidstudio&perline=9" alt="React Native, Flutter, TypeScript, Dart, Kotlin, Swift, Redux, Firebase, Android Studio" />
 </p>
 
 <p align="center">
@@ -137,7 +140,7 @@ I'm a senior React Native developer who builds **mobile apps that keep working**
 
 <div align="center">
 
-### Need a reliable React Native developer?
+### Need a reliable mobile app developer?
 
 Send me your task and I'll reply with an hour estimate and a clear plan.
 
